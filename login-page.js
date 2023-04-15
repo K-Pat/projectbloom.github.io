@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "kpatel" && password === "pass123") {
+    if (username === "carepage" && password === "pass123") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         // Simulate an HTTP redirect:
