@@ -2,7 +2,7 @@
 <?php
 
 header('Allow: POST');
-
+header("Access-Control-Allow-Origin: *");
 
 if(isset($_POST['submit']))
 {
