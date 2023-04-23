@@ -1,6 +1,9 @@
 <?php error_reporting(0); ?> 
 <?php
 
+header('Allow: POST');
+
+
 if(isset($_POST['submit']))
 {
   $member1 = $_POST['member1'];
