@@ -14,7 +14,7 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         // Simulate an HTTP redirect:
-        location.replace("index.php");
+        location.replace("demo_sheet.html");
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
