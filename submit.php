@@ -48,7 +48,4 @@ $priest_suggestion1 = isset($_POST['priest_suggestion1']) ? 'Yes' : 'No';
 $priest_suggestion2 = isset($_POST['priest_suggestion2']) ? 'Yes' : 'No';
 $priest_suggestion3 = isset($_POST['priest_suggestion3']) ? 'Yes' : 'No';
 
-// get friends and family data
-$friends_family = '';
-foreach
 ?>
