@@ -59,7 +59,10 @@
 
       <button type="submit">Submit</button>
 
-		
+
+
+
+<?php error_reporting(0); ?> 
 <?php
 
 // define file name and location
