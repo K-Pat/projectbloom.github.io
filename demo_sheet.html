@@ -1,111 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Care Family</title>
-  </head>
-  <body>
-    <h1>Care Family</h1>
-    <table>
-      <tr>
-        <th>Care Member</th>
-        <th>Care Member</th>
-        <th>Care Member</th>
-      </tr>
-      <tr>
-        <td>Manu Desai</td>
-        <td>Nirja Desai</td>
-        <td>Krishna Desai</td>
-      </tr>
-      <tr>
-        <td>900 Carter Acres Ln</td>
-        <td>900 Carter Acres Ln</td>
-        <td>900 Carter Acres Ln</td>
-      </tr>
-      <tr>
-        <td>Martinez</td>
-        <td>Martinez</td>
-        <td>Martinez</td>
-      </tr>
-      <tr>
-        <td>CA</td>
-        <td>CA</td>
-        <td>CA</td>
-      </tr>
-      <tr>
-        <td>94553</td>
-        <td>94553</td>
-        <td>94553</td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <tr>
-        <th>Mobile</th>
-        <td>650-867-7730</td>
-        <td>510-219-3487</td>
-        <td>925-264-4141</td>
-      </tr>
-      <tr>
-        <th>Email</th>
-        <td>xxx@gmail.com</td>
-        <td>xxx@gmail.com</td>
-        <td>xxx@gmail.com</td>
-      </tr>
-      <tr>
-        <th>Nationality</th>
-        <td>USA</td>
-        <td>USA</td>
-        <td>USA</td>
-      </tr>
-      <tr>
-        <th>Fathers Nationality</th>
-        <td>INDIA</td>
-        <td>INDIA</td>
-        <td>INDIA</td>
-      </tr>
-      <tr>
-        <th>Mothers Nationality</th>
-        <td>INDIA</td>
-        <td>INDIA</td>
-        <td>INDIA</td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <tr>
-        <th>Care volunteer</th>
-        <td>Yes</td>
-        <td></td>
-        <td>&gt;5 hr. per week</td>
-      </tr>
-      <tr>
-        <th>Care coordinator</th>
-        <td>Yes</td>
-        <td></td>
-        <td>available in your zip code</td>
-      </tr>
-      <tr>
-        <th>Care donor</th>
-        <td>Yes</td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <tr>
-        <th>Preferred rites</th>
-        <td>Cremation</td>
-      </tr>
-      <tr>
-        <th>Need for crematorium recommendation</th>
-        <td>Yes</td>
-      </tr>
-      <tr>
-        <th>Priest suggestion</th>
-        <td>Yes</td>
-      </tr>
-    </table>
-    <br>
-    <table>
+<head>
+	<title>Care Family Form</title>
+</head>
+<body>
+	<form method="POST" action="submit_form.php">
+		<fieldset>
+			<legend>Care Family</legend>
+			<label>Care Member:</label>
+			<input type="text" name="member1" placeholder="Manu Desai">
+			<input type="text" name="member2" placeholder="Nirja Desai">
+			<input type="text" name="member3" placeholder="Krishna Desai"><br><br>
+
+			<label>Address:</label>
+			<input type="text" name="address1" placeholder="900 Carter Acres Ln">
+			<input type="text" name="address2" placeholder="900 Carter Acres Ln">
+			<input type="text" name="address3" placeholder="900 Carter Acres Ln"><br><br>
+
+			<label>City:</label>
+			<input type="text" name="city1" placeholder="Martinez">
+			<input type="text" name="city2" placeholder="Martinez">
+			<input type="text" name="city3" placeholder="Martinez"><br><br>
+
+			<label>State:</label>
+			<input type="text" name="state1" placeholder="CA">
+			<input type="text" name="state2" placeholder="CA">
+			<input type="text" name="state3" placeholder="CA"><br><br>
+
+			<label>Zip Code:</label>
+			<input type="text" name="zip1" placeholder="94553">
+			<input type="text" name="zip2" placeholder="94553">
+			<input type="text" name="zip3" placeholder="94553"><br><br>
+
+			<label>Mobile:</label>
+			<input type="tel" name="mobile1" placeholder="650-867-7730">
+			<input type="tel" name="mobile2" placeholder="510-219-3487">
+			<input type="tel" name="mobile3" placeholder="925-264-4141"><br><br>
+
+			<label>Email:</label>
+			<input type="email" name="email1" placeholder="xxx@gmail.com">
+			<input type="email" name="email2" placeholder="xxx@gmail.com">
+			<input type="email" name="email3" placeholder="xxx@gmail.com"><br><br>
+
+			<label>Nationality:</label>
+			<input type="text" name="nationality1" placeholder="USA">
+			<input type="text" name="nationality2" placeholder="USA">
+			<input type="text" name="nationality3" placeholder="USA"><br><br>
+
+			<label>Father's Nationality:</label>
+			<input type="text" name="fathernationality1" placeholder="INDIA">
+			<input type="text" name="fathernationality2" placeholder="INDIA">
+			<input type="text" name="fathernationality3" placeholder="INDIA"><br><br>
+
+			<label>Mother's Nationality:</label>
+			<input type="text" name="mothernationality1" placeholder="INDIA">
+			<input type="text" name="mothernationality2" placeholder="INDIA">
+			<input type="text" name="mothernationality3" placeholder="INDIA"><br><br>
+
+      <button type="submit">Submit</button>
+
+		
